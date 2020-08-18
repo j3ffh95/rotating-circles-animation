@@ -1,13 +1,27 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
 .container {
   position: relative;
+  transform: rotate(135deg);
 }
 
 .circle {
   border: 60px dashed #111;
+  border-top-color: #fff;
+  border-right-color: #fff;
   border-radius: 50%;
+  box-shadow: 0 0 0 2px #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   height: 0;
   width: 0;
+  transform: translate(-50%, -50%) rotate(0deg);
+  animation: 3s ease-in-out infinite;
 }
