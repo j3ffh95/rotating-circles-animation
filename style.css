@@ -23,5 +23,5 @@ body {
   height: 0;
   width: 0;
   transform: translate(-50%, -50%) rotate(0deg);
-  animation: 3s ease-in-out infinite;
+  animation: 7s ease-in-out infinite;
 }
